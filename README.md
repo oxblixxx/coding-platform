@@ -568,3 +568,7 @@ CODEFORCES_API_BASE_URL=
 ```
 
 In the AWS deployment, runtime secrets are managed through AWS SSM Parameter Store and accessed by ECS tasks through IAM roles.
+
+
+## Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=Abhinav1416/coding-platform&type=Date)](https://star-history.com/#Abhinav1416/coding-platform&Date)

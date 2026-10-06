@@ -1,12 +1,6 @@
 #!/usr/bin/env bash
 #
 # Creates the S3 bucket that stores the project Terraform state.
-#
-# This must run before `terraform init` in terraform/bootstrap because the
-# bootstrap stack uses the same encrypted S3 backend it manages for the other
-# environments (avoiding the classic state-bucket chicken-and-egg problem).
-#
-# Usage: scripts/bootstrap-state.sh <bucket-name> [region]
 
 set -euo pipefail
 
